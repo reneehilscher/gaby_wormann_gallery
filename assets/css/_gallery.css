@@ -1,0 +1,21 @@
+/* Gallery Styles*/
+
+.gallery_item {
+	float:left;
+	width: 16%;
+	margin-right: 0.6%;
+}
+
+#main_window img {
+	width:100%;
+}
+
+.gallery_image img{
+	width:100%;
+}
+
+#gallery {
+	width: 100%;
+	overflow: auto;
+	padding: 0px;
+}

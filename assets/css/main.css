@@ -1,0 +1,158 @@
+@import url("normalize.css");
+@import url("_gallery.css");
+@import url("_contact.css");
+/*font-family: 'Rum Raisin', sans-serif;
+font-family: 'Elsie', cursive;
+font-family: 'Telex', sans-serif;
+font-family: 'Rosario', sans-serif;
+font-family: 'Cinzel Decorative', cursive;*/
+
+
+* {
+	box-sizing:border-box;
+}
+
+body {
+	font-family: 'Telex', sans-serif;
+	line-height: 1.4;
+	color: #000;
+}
+
+h1 {
+	font-family: 'Rosario', sans-serif;
+}
+
+header {
+	overflow:auto;
+}
+.container{
+	margin: 0 auto;
+	width: auto;
+	background-color:#eef0eb;
+}
+
+body {
+background-image: url('../images/tweed_purple.png');
+	background-repeat:repeat;
+
+}
+
+#bio {
+	float: left;
+	width: 50%;
+}
+
+#artist_img {
+	float: right;
+	border-radius: 50%;
+	border: 5px solid #D5CECE;
+}
+
+#about {
+overflow: auto;
+margin: 100px 0px 100px 0px;
+background-color: #e8e8e8;
+border-top: 2px dashed #D5CECE;
+border-bottom: 2px dashed #D5CECE;
+}
+
+#site_nav li {
+	display: inline;
+	margin-right: 40px;
+}
+
+#site_nav li a {
+	text-decoration: none;
+	color: #000;
+	}
+
+/*#site_nav li :first-child a {
+	padding-left:0px;
+	}*/
+
+#site_nav li a:hover {
+	color: #734557;
+	border-bottom: 5px solid #433e41;
+	padding-bottom:6px;
+}	
+
+#site_nav li a:active {
+	border-bottom:5px solid #433e41;
+} 
+
+#site_nav li a:visited {
+	border-bottom:5px solid #433e41;
+}
+
+#site_nav > ul {
+	padding-left: 0px;
+	float:right;
+}
+
+#social_media {
+	width: 20%;
+	margin: 0 auto;
+	padding-left:0px;
+}
+
+.social {
+	display: inline;
+	padding: 10px;
+}
+
+.social a {
+	opacity: 0.6;
+}
+
+.social a:hover {
+	opacity: 1;
+}
+
+#copyright {
+	width: 20%;
+	margin: 0 auto;
+	padding: 44px 0px 20px 0px;
+}
+
+.inner-container {
+	padding: 40px 100px 40px 100px;
+	overflow: auto;
+}
+
+#logo {
+float:left;
+}
+
+/*responsive goodness*/
+@media all and (max-width: 900px) and (min-width:480px ) {
+
+
+	footer {
+		overflow: auto;
+	}
+
+	#social_media {
+		width: 36%;
+		float: left;
+		margin: 0 auto;
+		padding-left: 0px;
+	}
+
+	#copyright {
+		float: right;
+		width: 50%;
+		margin: 0 auto;
+		padding: 0px;
+
+	}
+
+} 
+
+@media screen and (min-width: 320px) and (max-width: 480px) { 
+
+//for smartphones 
+
+} 
+
+
+
