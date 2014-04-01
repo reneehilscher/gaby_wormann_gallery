@@ -19,3 +19,11 @@
 	overflow: auto;
 	padding: 0px;
 }
+
+#image_gallery {
+	overflow: auto;
+	margin: 100px 0px 100px 0px;
+	background-color: #e8e8e8;
+	border-top: 2px dashed #D5CECE;
+	border-bottom: 2px dashed #D5CECE;
+}

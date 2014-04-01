@@ -1,3 +1,6 @@
+
+
+//generate image gallery
 var gallery = document.getElementById("gallery"); //target gallery
 
 // console.log(gallery);
